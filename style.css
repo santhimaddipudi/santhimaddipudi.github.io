@@ -835,8 +835,9 @@ main {
 
 .clients-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;  
   gap: 15px;
   margin: 0 -15px;
   padding: 25px;
@@ -849,8 +850,9 @@ main {
 }
 
 .clients-item {
-  min-width: 50%;
+  min-width: 100%;
   scroll-snap-align: start;
+	height:auto;
 }
 
 .clients-item img {
