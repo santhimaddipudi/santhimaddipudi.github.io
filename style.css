@@ -849,23 +849,19 @@ main {
 
 .clients-item {
   width: 50px;              /* fixed box size */
-  height: 50px;             /* fixed height */
+  height: auto;             /* fixed height */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .clients-item img {
-  max-width: 50%;
-  max-height: 50px;          /* keeps logos small */
+  width: 50%;
+  height: auto;          /* keeps logos small */
   object-fit: contain;
-  filter: grayscale(1);
   transition: 0.3s ease;
 }
 
-.clients-item img:hover {
-  filter: grayscale(0);
-}
 
 
 
