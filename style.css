@@ -835,29 +835,23 @@ main {
 
 .clients-list {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;  
-  gap: 15px;
-  margin: 0 -15px;
-  padding: 25px;
-  padding-bottom: 25px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
 }
 
 .clients-item {
   min-width: 100%;
   scroll-snap-align: start;
-	height:auto;
 }
 
 .clients-item img {
-  width: 100%;
+  width: 130%;
   filter: grayscale(1);
+	height:auto;
   transition: var(--transition-1);
 }
 
