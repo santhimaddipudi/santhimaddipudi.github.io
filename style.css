@@ -844,14 +844,14 @@ main {
 }
 
 .clients-item {
-  min-width: 100%;
+  min-width: 50%;
   scroll-snap-align: start;
 }
 
 .clients-item img {
-  width: 130%;
+  width: 40%;
   filter: grayscale(1);
-	height:auto;
+  height:auto;
   transition: var(--transition-1);
 }
 
