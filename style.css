@@ -848,7 +848,7 @@ main {
 }
 
 .clients-item {
-  width: 50px;              /* fixed box size */
+  width: 80px;              /* fixed box size */
   height: auto;             /* fixed height */
   display: flex;
   justify-content: center;
@@ -856,7 +856,7 @@ main {
 }
 
 .clients-item img {
-  width: 50%;
+  width: 80%;
   height: auto;          /* keeps logos small */
   object-fit: contain;
   transition: 0.3s ease;
