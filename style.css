@@ -831,36 +831,34 @@ main {
  * #clients 
  */
 
-/* Clients Section */
 .clients {
   margin-bottom: 15px;
 }
 
 .clients-list {
   display: flex;
-  justify-content: center;
+  justify-content: center;   /* center the whole row */
   align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;                 /* reduced gap */
   list-style: none;
   padding: 0;
   margin: 0;
+  flex-wrap: nowrap;         /* force single row */
 }
 
 .clients-item {
-  width: 80px;              /* fixed box size */
-  height: auto;             /* fixed height */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .clients-item img {
-  width: 80%;
-  height: auto;          /* keeps logos small */
+  height: 60px;              /* slightly bigger */
+  width: auto;               /* keeps proper ratio */
   object-fit: contain;
   transition: 0.3s ease;
 }
+
 
 
 
