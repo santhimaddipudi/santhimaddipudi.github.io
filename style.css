@@ -840,8 +840,8 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;          /* prevents overflow */
-  gap: 15px;                /* clean spacing */
-  padding: 20px 0;
+  gap: 10px;                /* clean spacing */
+  padding: 10px 0;
   margin: 0;
   list-style: none;
 }
@@ -854,9 +854,9 @@ main {
 }
 
 .clients-item img {
-  height: 70px;             /* uniform professional size */
+  height: 80px;             /* uniform professional size */
   width: auto;
-  max-width: 140px;
+  max-width: 150px;
   object-fit: contain;
   transition: 0.3s ease;
 }
