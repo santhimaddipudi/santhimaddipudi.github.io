@@ -837,28 +837,20 @@ main {
 
 .clients-list {
   display: flex;
-  justify-content: center;   /* center the whole row */
+  justify-content: center;
   align-items: center;
-  gap: 20px;                 /* reduced gap */
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  flex-wrap: nowrap;         /* force single row */
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .clients-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex: 0 1 auto;   /* prevents stretching */
 }
 
 .clients-item img {
-  height: 60px;              /* slightly bigger */
-  width: auto;               /* keeps proper ratio */
-  object-fit: contain;
-  transition: 0.3s ease;
+  height: 55px;
+  max-width: 120px;
 }
-
 
 
 
