@@ -422,7 +422,16 @@ main {
   justify-content: center;
 }
 
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;       /* allows wrapping if screen is small */
+  gap: 15px;             /* space between icons */
+  align-items: center;
+}
 
+.skills-icons a {
+  display: inline-block; /* ensures they stay inline */
+}
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
