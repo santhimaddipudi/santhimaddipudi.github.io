@@ -422,11 +422,13 @@ main {
   justify-content: center;
 }
 
+
 .skills-icons {
-  display: flex;
-  flex-wrap: wrap;       /* allows wrapping if screen is small */
-  gap: 15px;             /* space between icons */
-  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    width: 100%;              /* IMPORTANT */
 }
 
 .skills-icons a {
